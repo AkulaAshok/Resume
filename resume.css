@@ -1,0 +1,65 @@
+body{
+    font-family: 'Times New Roman';
+    font-size: small;
+    font-weight: 100;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline 5%;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    background-color: rgba(91, 166, 169, 0.675) ;
+    font: 1.2em Roboto;
+    padding-left: 2px;
+}
+
+.info{
+    width : 35vh;
+    height : 6vw;
+}
+
+img{
+    width: 60px;
+    height: 70px;
+    border-style: groove;
+    float: inline-end;
+    border: solid 2px;
+    display: flex;
+}
+
+.info , img{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+table{
+    width: 100%;
+}
+
+table,td, th{
+    border: solid 1px;
+    padding: 2px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+.details , .value{
+    margin-left: 10px;
+    display: inline-block;
+}
+
